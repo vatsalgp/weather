@@ -1,4 +1,38 @@
+body {
+    background-color: aliceblue;
+    font-family: "Calligraffitti", cursive;
+}
+
+.ui.card {
+    width: 90%;
+    height: 70vh;
+}
+
 .month {
+    font-size: xxx-large;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+h1 {
+    font-size: xxx-large;
+    padding: 20px;
+    font-family: "Calligraffitti", cursive;
+}
+#name {
+    font-weight: bold;
+    height: 0;
+    padding-bottom: 0;
+}
+
+#high {
+    margin: 0;
+    height: 50%;
+    vertical-align: middle;
+    color: rgb(255, 136, 0);
+}
+#low {
+    height: 50%;
+    vertical-align: middle;
+    color: blue;
 }
